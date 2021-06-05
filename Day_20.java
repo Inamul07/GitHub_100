@@ -1,3 +1,17 @@
+/* A List is given with n integers. Remove the integers that has duplicate digits and print the list.
+
+   Sample Input:
+   5
+   100
+   101
+   102
+   105
+   110
+   
+   Output:
+   [102,105]
+*/
+
 import java.util.Scanner;
 import java.util.HashSet;
 import java.util.ArrayList;
