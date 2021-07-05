@@ -1,3 +1,4 @@
+/* Write a Java Program to perform capitalize() */
 import java.util.*;
 public class Day_50 {
     public static void main(String[] args) {
