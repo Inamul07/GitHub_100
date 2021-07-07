@@ -15,7 +15,7 @@ char* rtrim(char*);
 
 int parse_int(char*);
 
-/*
+/**
  * Complete the 'staircase' function below.
  *
  * The function accepts INTEGER n as parameter.
