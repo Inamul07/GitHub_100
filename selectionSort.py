@@ -1,4 +1,4 @@
-#Program to perform Selection Sort
+# Program to perform Selection Sort
 def selectionSort(list, n):
     for i in range(0,n):
         min = i
