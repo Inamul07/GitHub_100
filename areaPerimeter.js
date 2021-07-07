@@ -28,7 +28,7 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-/**
+/***
 *   Calculate the area of a rectangle.
 *
 *   length: The length of the rectangle.
