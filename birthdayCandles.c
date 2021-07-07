@@ -24,7 +24,7 @@ char** split_string(char*);
 
 int parse_int(char*);
 
-/*
+/**
  * Complete the 'birthdayCakeCandles' function below.
  *
  * The function is expected to return an INTEGER.
