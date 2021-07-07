@@ -11,7 +11,7 @@
 
 char* readline();
 
-/*
+/**
  * Complete the 'timeConversion' function below.
  *
  * The function is expected to return a STRING.
