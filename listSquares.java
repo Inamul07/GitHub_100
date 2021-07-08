@@ -1,3 +1,4 @@
+/* Get input of an ArrayList and return update them as their squares */
 import java.util.ArrayList;
 import java.util.Scanner;
 public class Day_18 {
