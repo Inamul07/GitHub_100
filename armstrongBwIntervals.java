@@ -1,3 +1,4 @@
+/* Program to find armstrong numbers b/w intervals */
 import java.util.Scanner;
 public class Day_24 {
     static boolean isArmstrong(int n) {
