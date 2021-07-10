@@ -1,6 +1,6 @@
 /* Write a Java program to print the second smallest even number from an arrayList */
 import java.util.*;
-public class test {
+public class evenSecondSmallest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter The No. Of Elements: ");
