@@ -1,3 +1,4 @@
+# Write a python program to perform binary search
 def binary_search(list ,n ,x):
     start,end = 0,n-1
     while start <= end:
