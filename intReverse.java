@@ -1,3 +1,4 @@
+/* Java program to reverse a integer */
 class Solution {
 public:
     int reverse(int x) {
