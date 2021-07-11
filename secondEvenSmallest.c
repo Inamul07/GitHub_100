@@ -1,3 +1,5 @@
+/* Write a program to print the second smallest even number in a list */
+
 #include <stdio.h>
 
 void sort(int arr[], int n)

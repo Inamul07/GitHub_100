@@ -1,5 +1,6 @@
+/* Write a program to print n fibonacci numbers */
 import java.util.Scanner;
-public class Day_30 {
+public class fibonacci {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter The No. Of Terms:");
