@@ -1,5 +1,7 @@
+/* Write a program to print prime numbers b/w two intervals */
+
 import java.util.*;
-public class Day_36 {
+public class prineBwIntervals {
     static boolean isprime(int n) {
         int temp = 0;
         for(int i = 2; i < n; i++) {
