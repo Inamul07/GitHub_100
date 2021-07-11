@@ -1,3 +1,4 @@
+# Write a python program to perform linear search
 list = []
 n = int(input("Enter Total No. Of Elements: "))
 for i in range(0,n):
