@@ -1,5 +1,5 @@
 import java.util.*;
-public class Day_32 {
+public class stringReverse {
     static String strrev(String str) {
         int len = str.length();
         String rev = "";
