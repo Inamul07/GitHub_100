@@ -1,3 +1,5 @@
+/* Get n elements of a list and return the sum of the list */
+
 import java.util.*;
 public class ArrayListSum {
     public static void main(String[] args) {
