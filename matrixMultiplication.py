@@ -1,3 +1,4 @@
+# Write a python program to multiply two matrices
 print("Enter M1rows & M1cols:")
 M1rows = int(input())
 M1cols = int(input())
