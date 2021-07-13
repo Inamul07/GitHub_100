@@ -1,7 +1,7 @@
 /* Write a java program to perform quick sort */
 
 import java.util.*;
-public class Day_45 {
+public class quickSort {
     static void swap(int[] list, int i, int j) {
         int temp = list[j];
         list[j] = list[i];
