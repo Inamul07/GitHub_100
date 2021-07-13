@@ -1,6 +1,6 @@
-/* Write a Java Program to perform capitalize() */
+/* Write a Java Program to perform capitalize() (available in python)*/
 import java.util.*;
-public class Day_50 {
+public class capitalize {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
