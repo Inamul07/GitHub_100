@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class Day_48 {
+public class bufferLine {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
