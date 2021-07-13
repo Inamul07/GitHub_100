@@ -1,3 +1,5 @@
+# Write a python program to store Student details
+
 def grader(avg):
     if avg >= 90:
         return 'A'
