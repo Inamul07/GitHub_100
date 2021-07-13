@@ -1,5 +1,5 @@
 import java.util.*;
-public class Day_43 {
+public class mergeSort {
     static void merge(int[] arr, int l, int m, int r) {
         int[] temp = new int[r - l + 1];
         int p1 = l, p2 = m + 1, count = 0;
