@@ -1,3 +1,4 @@
+# Write a python program to perform quick sort
 def swap(list, i, j):
     temp = list[i]
     list[i] = list[j]
