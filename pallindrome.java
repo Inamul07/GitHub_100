@@ -1,5 +1,6 @@
+/* Write a java program to find if a givven string is pallindrome or not */
 import java.util.*;
-public class Day_40 {
+public class pallindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
