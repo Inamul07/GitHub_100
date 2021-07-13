@@ -1,3 +1,4 @@
+/* Write a java program to calculate sum of n numbers [1 to n] */
 import java.util.*;
 public class Day_37 {
     public static void main(String[] args) {
