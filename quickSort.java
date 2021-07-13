@@ -1,3 +1,5 @@
+/* Write a java program to perform quick sort */
+
 import java.util.*;
 public class Day_45 {
     static void swap(int[] list, int i, int j) {
