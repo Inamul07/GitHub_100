@@ -1,5 +1,6 @@
+/* Write a java program to perform toUpperCase() */
 import java.util.*;
-public class Day_49 {
+public class toUpperCase {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
