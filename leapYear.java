@@ -1,5 +1,6 @@
+/* Write a java program to find if a year is leap year or not */
 import java.util.*;
-public class Day_51 {
+public class leapYear {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
