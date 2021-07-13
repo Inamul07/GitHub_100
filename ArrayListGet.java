@@ -1,4 +1,4 @@
-/* Write a program implementing add & get method of ArraList */
+/** Write a program implementing add & get method of ArraList */
 import java.util.*;
 public class ArrayListGet {
     public static void main(String[] args) {
