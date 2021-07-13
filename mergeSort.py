@@ -1,3 +1,4 @@
+# Write a python program to perform merge sort
 def mergeSort(list):
     if len(list) > 1:
         m = len(list) // 2
