@@ -1,5 +1,6 @@
 package SinglyLinkedList;
 
+
 public class SinglyLinkedList {
     Node head;
     Node tail;
