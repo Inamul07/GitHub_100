@@ -51,15 +51,43 @@ public class SinglyLinkedList {
         }
     }
 
-    public void remove(int element) {
+    public void removeFirst() {
+        head = head.next;
+    }
+
+    public void removeLast() {
         Node trav1 = head;
         while(trav1 != null) {
             Node trav2 = trav1.next;
-            if(trav2.val == element) {
-                trav1.next = trav2.next;
-                break;
+            if(trav2.next == tail) {
+                tail = trav2;
+                trav2.next = null;
+            }
+            trav1 = trav2;
+        }
+    }
+
+    public void remove(int element) {
+        if(head.val == element)
+            removeFirst();
+        else if(tail.val == element)
+            removeLast();
+        else {
+            Node trav1 = head;
+            while(trav1 != null) {
+                Node trav2 = trav1.next;
+                if(trav2.val == element) {
+                    trav1.next = trav2.next;
+                    break;
+                }
+                trav1 = trav2;
             }
         }
+    }
+
+    public void clear() {
+        head = null;
+        tail = null;
     }
 
     public void print() {
