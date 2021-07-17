@@ -88,6 +88,11 @@ public class DoublyLinkedList {
             }
         }
     }
+    
+    public void clear() {
+        head = null;
+        tail = null;
+    }
 
     public void print() {
         Node trav = head;
