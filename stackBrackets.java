@@ -1,40 +1,38 @@
-import java.util.*;
+/* Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
-public class stackBrackets {
+An input string is valid if:
 
-    static boolean isLeft(char bracket) {
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order. */
+
+class Solution {
+    public boolean isLeft(char bracket) {
         if(bracket == '(' || bracket == '[' || bracket == '{')
             return true;
         return false;
     }
 
-    static char reverse(char bracket) {
+    public char reverse(char bracket) {
         if(bracket == '(')
             return ')';
         else if(bracket == '[')
             return ']';
         return '}';
     }
-
-    public static void main(String[] args) {
+    
+    public boolean isValid(String s) {
         Stack<Character> stack = new Stack<Character>();
-        Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
-        sc.close();
-        for(char ch : str.toCharArray()) {
+        for(char ch : s.toCharArray()) {
             if(isLeft(ch)) {
                 stack.push(ch);
                 continue;
             } 
-            if(stack.isEmpty() || ch != reverse(stack.pop())) {
-                System.out.println("Invalid");
-                break;
-            }
+            if(stack.isEmpty() || ch != reverse(stack.pop()))
+                    return false;
         }
         if(stack.isEmpty()) {
-            System.out.println("Valid");
-        } else {
-            System.out.println("Invalid");
+            return true;
         }
+        return false;
     }
 }
