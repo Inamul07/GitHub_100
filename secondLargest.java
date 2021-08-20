@@ -35,3 +35,4 @@ public class secondLargest {
         sort(arr);
         System.out.println(arr[n - 2]);
     }
+}
