@@ -3,7 +3,7 @@
 import java.util.*;
 import java.text.SimpleDateFormat;
 import java.text.ParseException;
-public class daysBwDates {
+public class DaysBwDates {
 
     static void Difference(String fromDate, String toDate) {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
