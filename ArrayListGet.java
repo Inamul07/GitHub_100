@@ -1,6 +1,6 @@
 /** Write a program implementing add & get method of ArraList */
 import java.util.*;
-public class arrayListGet {
+public class ArrayListGet {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<Integer>();
