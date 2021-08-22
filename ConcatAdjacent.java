@@ -22,7 +22,7 @@ Here X = 4.
 */
 
 import java.util.*;
-public class concatAdjacent {
+public class ConcatAdjacent {
 
     static long value(long x, long y) {
         long temp = y, mul = 1;
