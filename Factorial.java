@@ -1,6 +1,6 @@
 /* Write a Java Program to calculate factorial of a number */
 import java.util.Scanner;
-public class factorial {
+public class Factorial {
     public static int fact(int n){
         if(n == 0 || n == 1)
             return 1;
