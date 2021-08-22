@@ -1,6 +1,6 @@
 /* Write a program to print n fibonacci numbers */
 import java.util.Scanner;
-public class fibonacci {
+public class Fibonacci {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter The No. Of Terms:");
