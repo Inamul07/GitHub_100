@@ -1,6 +1,6 @@
 /* Program to find armstrong numbers b/w intervals */
 import java.util.Scanner;
-public class armstrongBwIntervals {
+public class ArmstrongBwIntervals {
     static boolean isArmstrong(int n) {
         int temp = n, sum = 0;
         while(temp > 0) {
