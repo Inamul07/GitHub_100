@@ -15,7 +15,7 @@
 import java.util.Scanner;
 import java.util.HashSet;
 import java.util.ArrayList;
-public class listWithUniqueDigits {
+public class ListWithUniqueDigits {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<Integer>();
         ArrayList<Integer> newList = new ArrayList<Integer>();
