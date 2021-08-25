@@ -45,6 +45,4 @@ public class listWithUniqueDigits {
         System.out.print(newList);
         sc.close();
     }
-}public class Day_20 {
-    
 }
