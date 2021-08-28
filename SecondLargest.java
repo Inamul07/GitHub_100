@@ -10,7 +10,7 @@ Output:
 */
 
 import java.util.*;
-public class secondLargest {
+public class SecondLargest {
     
     static void sort(int[] arr) {
         int n = arr.length;
