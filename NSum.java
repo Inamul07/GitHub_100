@@ -1,6 +1,6 @@
 /* Write a java program to calculate sum of n numbers [1 to n] */
 import java.util.*;
-public class nSum {
+public class NSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(), sum = 0;
