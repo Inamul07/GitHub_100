@@ -1,6 +1,6 @@
 /* Write a Java Program to find maximum and minimum from an ArrayList */
 import java.util.*;
-public class maxMinArray {
+public class MaxMinArray {
     public static void main() {
         ArrayList<Integer> list = new ArrayList<Integer>();
         Scanner sc = new Scanner(System.in);
