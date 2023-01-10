@@ -1,6 +1,6 @@
 /* Java Program to perform selection sort */
 import java.util.*;
-public class selectionSort {
+public class SelectionSort {
     static void sort(ArrayList<Integer> list) {
         int n = list.size();
         for(int i = 0; i < n; i++){
