@@ -1,5 +1,6 @@
 // url: https://leetcode.com/problems/furthest-point-from-origin/
 
+// Brute Force
 class Solution {
     
     Map<String, Integer> map;
@@ -25,5 +26,21 @@ class Solution {
         if(moves.length() == 1) return 1;
         map = new HashMap<>();
         return backtrack(0, 0, moves);
+    }
+}
+
+
+// O(n)
+class Solution {
+    public int furthestDistanceFromOrigin(String moves) {
+        int l = 0, r = 0, m = 0, res = 0;
+        for(int i = 0; i < moves.length(); i++) {
+            if(moves.charAt(i) == 'L') l++;
+            else if(moves.charAt(i) == 'R') r++;
+            else m++;
+        }
+        res = Math.max(res, Math.abs(l - (r + m)));
+        res = Math.max(res, Math.abs(r - (l + m)));
+        return res;
     }
 }
