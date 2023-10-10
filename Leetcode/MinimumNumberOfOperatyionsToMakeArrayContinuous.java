@@ -1,5 +1,23 @@
 // url: https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/
 
+// O(n log n)
+class Solution {
+    public int minOperations(int[] nums) {
+        Arrays.sort(nums);
+        List<Integer> list = new ArrayList<>();
+        list.add(nums[0]);
+        for(int i = 1; i < nums.length; i++) if(nums[i] != nums[i-1]) list.add(nums[i]);
+        int r = 0, res = Integer.MAX_VALUE;
+        for(int l = 0; l < list.size(); l++) {
+            int x1 = list.get(l), x2 = list.get(l) + nums.length - 1;
+            while(r < list.size() && list.get(r) <= x2) r++;
+            res = Math.min(res, nums.length - (r - l));
+        }
+        return res;
+    }
+}
+
+
 // Brute-Force (TLE)
 class Solution {
     public int minOperations(int[] nums) {
