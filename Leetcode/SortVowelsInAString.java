@@ -1,7 +1,6 @@
 // url: https://leetcode.com/problems/sort-vowels-in-a-string/
 
 class Solution {
-
     private boolean isVowel(char ch) {
         return "aeiouAEIOU".contains(ch+"");
     }
