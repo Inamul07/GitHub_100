@@ -16,3 +16,28 @@ class Solution {
         }
     }
 }
+
+// Backtracking
+class Solution {
+
+    Set<String> set;
+    String res;
+
+    private boolean backtrack(String s, int n) {
+        if(s.length() == n) {
+            if(!set.contains(s)) {
+                res = s;
+                return true;
+            } else return false;
+        }
+        return backtrack(s + "0", n) || backtrack(s + "1", n);
+    }
+
+    public String findDifferentBinaryString(String[] nums) {
+        set = new HashSet<>();
+        res = "";
+        for(String s: nums) set.add(s);
+        backtrack("", nums.length);
+        return res;
+    }
+}
