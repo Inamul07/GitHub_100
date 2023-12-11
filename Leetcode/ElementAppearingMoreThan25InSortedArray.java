@@ -11,3 +11,13 @@ class Solution {
         return -1;
     }
 }
+
+// O(N)
+class Solution {
+    public int findSpecialInteger(int[] arr) {
+        for(int i = 0; i < arr.length; i++) {
+            if((i+(arr.length/4) < arr.length) && arr[i] == arr[i + (arr.length/4)]) return arr[i];
+        }
+        return -1;
+    }
+}
