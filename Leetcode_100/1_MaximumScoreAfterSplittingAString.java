@@ -1,3 +1,4 @@
+// url: https://leetcode.com/problems/maximum-score-after-splitting-a-string/description/?envType=daily-question&envId=2025-01-02
 class Solution {
     public int maxScore(String s) {
         int zCount = 0, oCount = 0;
