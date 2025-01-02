@@ -1,3 +1,4 @@
+// url: https://leetcode.com/problems/count-vowel-strings-in-ranges/?envType=daily-question&envId=2025-01-02
 class Solution {
 
     private boolean isVowel(char ch) {
