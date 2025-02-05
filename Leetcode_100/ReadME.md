@@ -12,3 +12,7 @@ LC Day <DAY_COUNT>:<Trial_Character><CURRENT_STREAK>
 - In this example, `A` means streak was broken `1` time.
 - If streak wasn't broken there will be no second half.
 - If a problem that was missed, was solved some other day, the second half will be `-1`.
+
+### Miscellaneous
+- If a streak was broken, the commit message will have an extended description stating the reason (in the next problem).
+- Same message will be in the extended description of problems with the second half as `-1`.
