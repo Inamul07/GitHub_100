@@ -30,6 +30,6 @@ class Solution {
     }
 
     public long countOfSubstrings(String word, int k) {
-        return Math.abs(countWithAtleastK(word, k+1) - countWithAtleastK(word, k));
+        return countWithAtleastK(word, k) - countWithAtleastK(word, k+1);
     }
 }
